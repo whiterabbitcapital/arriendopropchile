@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/nqbusxs1sf2w/public_html/
+    - export DEPLOYPATH=/home/nqbusxs1sf2w/arriendoprop.cl
 
     - /bin/cp -R images $DEPLOYPATH
