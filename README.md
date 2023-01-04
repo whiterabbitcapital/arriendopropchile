@@ -1,2 +1,0 @@
-# arriendopropchile
-arriendos
