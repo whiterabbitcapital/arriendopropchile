@@ -2,15 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/nqbusxs1sf2w/public_html/arriendoprop.cl/
-    - /bin/cp -R app $DEPLOYPATH
-    - /bin/cp -R boostrap $DEPLOYPATH
-    - /bin/cp -R config $DEPLOYPATH
-    - /bin/cp -R database $DEPLOYPATH
-    - /bin/cp -R lang $DEPLOYPATH
-    - /bin/cp -R plataform $DEPLOYPATH
-    - /bin/cp -R public $DEPLOYPATH
-    - /bin/cp -R resources $DEPLOYPATH
-    - /bin/cp -R storage $DEPLOYPATH
-    - /bin/cp -R tests $DEPLOYPATH
-    - /bin/cp -R vendor $DEPLOYPATH
-    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -fr * $DEPLOYPATH
